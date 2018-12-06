@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-content: center;
+    padding: 2vw;
+}
+
+.container header{
+    background: orange;
+    margin: 10px 0;
+    height: 20%;
+}
+
+.container footer{
+    background-color:black;
+    margin-top: 10px;
+    height: 20%;
+}
+
+.container footer p, .container header h2{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content {
+    display: flex;
+    height: 60%;
+}
+
+.content section{
+    width: 70%;
+    background-color: bisque;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.content section img{
+     width: 100%;
+     height: 200px;
+}
+
+.content aside{
+    width: 30%;
+    background-color: lightgray;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 300px){
+
+}
