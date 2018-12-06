@@ -48,7 +48,51 @@
     margin-left: 5px;
 }
 
+/*General Phone*/
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .content{
+        display: flex;
+        flex-flow: column nowrap;
+    }
 
-@media screen and (max-width: 300px){
+    .content aside, .content section{
+        width: 100%;
+    }
+}
 
+/*Ipad PRO*/
+@media screen and (width: 1024px) and (height: 1366px), (width: 1366px) and (height: 1024px){
+
+    .content{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .content aside, .content section{
+        width: 100%;
+    }
+
+    p{
+        font-size: 2em;
+    }
+
+}
+
+@media only screen and (orientation: portrait) {
+    .container {
+        background-color: lightblue;
+    }
+}
+
+@media screen {
+    .container {
+        color: green; 
+    }
+}
+
+
+@media print {
+    .container {
+        color:  blue; 
+    }
 }
